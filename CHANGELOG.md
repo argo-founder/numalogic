@@ -1,5 +1,35 @@
 # Changelog
 
+## v0.4a0 (2023-05-11)
+
+ * [75aea49](https://github.com/numaproj/numalogic/commit/75aea49dfa6d856c7430be00709fd739e734c250) chore!: Auto detect instance type while mlflow model save (#190)
+ * [e884b90](https://github.com/numaproj/numalogic/commit/e884b90bf39e72ceb8b95acba59316bbf342e173) feat: add redis caching (#179)
+ * [7834730](https://github.com/numaproj/numalogic/commit/7834730465e12cfa12f073209551cedff3af76c6) fix: allow import from Registryconfig with optional dependencies (#180)
+ * [25a16f2](https://github.com/numaproj/numalogic/commit/25a16f200733f19a5fc377ed63eee390d261757d) fix: stale check; conf lazy imports (#178)
+
+### Contributors
+
+ * Avik Basu
+ * Kushal Batra
+
+## v0.4.dev5 (2023-05-09)
+
+ * [54cffe3](https://github.com/numaproj/numalogic/commit/54cffe374b3e7fd62f91fa9d1b82a8b677837061) fix: optional dependency imports
+
+### Contributors
+
+ * Avik Basu
+
+## v0.4.dev4 (2023-05-09)
+
+ * [8086db1](https://github.com/numaproj/numalogic/commit/8086db121d437ce2bcec0ec11cc338847f197909) fix: stale check; conf lazy imports (#178)
+ * [b664e49](https://github.com/numaproj/numalogic/commit/b664e49b5eaa90b43f64a4e7442b5179c7d32149) Prerelease 0.4 (#173)
+ * [85fb527](https://github.com/numaproj/numalogic/commit/85fb527be68c325f8308f4d3070fe42b131962ff) chore!: use torch and lightning 2.0
+
+### Contributors
+
+ * Avik Basu
+
 ## v0.3.8 (2023-04-18)
 
  * [3160c2b](https://github.com/numaproj/numalogic/commit/3160c2b4a248f974bc6c6e4893e7c68c1fdd7890) feat: exponential moving average postprocessing (#156)
@@ -212,3 +242,4 @@
 ### Contributors
 
  * Kushal Batra
+
